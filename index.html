@@ -53,7 +53,83 @@
   })();
 
 </script>
+<style>
+  /* Professional Holiday Banner Styles */
+  .info-banner-container {
+    background-color: #8B0000; /* Dark Red background */
+    color: #ffffff;
+    padding: 30px 15px;
+    text-align: center;
+    border-bottom: 5px solid #D4AF37; /* Gold border */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  }
 
+  .info-banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .info-hours {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .payment-alert {
+    background-color: rgba(0,0,0,0.2);
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+
+  /* The Holiday Notice Box */
+  .holiday-notice-box {
+    border: 2px solid #D4AF37; /* Gold border */
+    background-color: #a00000; /* Slightly lighter red */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 500px;
+  }
+
+  .holiday-notice-box h2 {
+    color: #D4AF37; /* Gold text */
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 0;
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .holiday-dates {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+
+  /* WhatsApp Button */
+  .btn-whatsapp {
+    background-color: #25D366;
+    color: white !important;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    transition: background 0.3s;
+    border: 1px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+
+  .btn-whatsapp:hover {
+    background-color: #1ebc57;
+    text-decoration: none;
+  }
+</style>
 </head>
 <body>
   <header>
@@ -81,10 +157,33 @@
     </nav>
   </header>
 
-<center></h1>Horários: Quartas, Quintas e Sextas das 18:00 até 22:00. Obrigado!</h1></center>
-  <center>Aceitamos somente PIX e dinheiro.</center>
-  <center><a href="https://wa.me/5511956724836">WhatsApp Link</a></center>
-  
+  <div class="info-banner-container">
+  <div class="info-banner-content">
+    
+    <div class="info-hours">
+      <strong>Horários:</strong> Quartas, Quintas e Sextas<br>
+      das 18:00 às 22:00
+    </div>
+    
+    <div class="payment-alert">
+      ⚠️ Aceitamos somente PIX e dinheiro
+    </div>
+
+    <div class="holiday-notice-box">
+      <h2>Aviso aos Clientes</h2>
+      <div class="holiday-dates">
+        Iremos funcionar até dia 19/12/25<br>
+        e retornamos dia <span style="color: #FFD700;">07/01/26</span>
+      </div>
+      <p>Obrigado a todos e Boas Festas!</p>
+    </div>
+
+    <a href="https://wa.me/5511956724836" class="btn-whatsapp" target="_blank">
+      <i class="icon-comment"></i> Fale Conosco no WhatsApp
+    </a>
+
+  </div>
+</div>
   
 
     <div class="super-hero row">
